@@ -17,9 +17,9 @@ app.use(express.json({extanded:false}));
 app.use('/login',require('./api/routes/login'));
 app.use('/register',require('./api/routes/register'));
 
-app.get('/',(req,res)=>{
-    res.send('hello world'); 
-});
+// app.get('/',(req,res)=>{
+//     res.send('hello world'); 
+// });
 
 
 app.listen(port,()=>{
